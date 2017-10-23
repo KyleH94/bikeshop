@@ -1,0 +1,251 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	font-family: 'Muli';
+}
+
+.navbar-brand {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: white !important;
+}
+
+
+.btn-outline-success {
+	border: 1px solid white;
+	color: white;
+}
+
+ 
+
+.pageOne {
+
+	background-image: url("https://source.unsplash.com/nCj0zBLIaAk");
+	background-color: rgba(255,255,255, 0.2);
+    background-blend-mode: lighten;
+	background-size: cover;
+	height: 100%;
+  	width: 100%;
+
+}
+
+#pageOneInfo {
+	color: white;
+	font-size: 65px;
+	padding-top: 13%;
+	padding-left: 35px;
+	font-weight: 800;
+	text-align: center;
+	text-shadow: 0 0 28px black;
+
+
+}
+
+.buttons {
+	text-align: center;
+	padding-top: 5%;
+}
+
+.btn-outline-secondary {
+	font-size: 20px;
+	font-family: 'Muli';
+	padding: 12px 22px;
+	color: #fc4a1a;
+	border-radius: 24px;
+	background-color: white;
+	border: none;
+
+}
+
+.btn-outline-new {
+	background-color: #fc4a1a;
+	color: white;
+	border: none;
+}
+
+.pageTwo {
+	height: 80%;
+	width: 100%;
+	background: #fc4a1a;
+}
+
+.welcome {
+
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	padding-top: 5%;
+	padding-bottom: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+#buildABike {
+	
+	color: black;
+	border-bottom: 2px solid white;
+	font-size: 30px;
+	font-style: italic;
+
+}
+
+#pageTwoInfo {
+
+	font-size: 20px;
+	letter-spacing: 5px;
+	line-height: 50px;
+	font-weight: 700;
+	text-align: center;
+	padding-left: 40px;
+	padding-top: 5%;
+	padding-right: 40px;
+	color: white;
+	text-transform: uppercase;
+	
+}
+
+hr {
+	width: 30%;
+}
+
+.pageThree {
+	height:90%;
+	width: 100%;
+}
+
+.equal {
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.img-thumbnail {
+	height: 200px;
+	width: 310px;
+	z-index: 1;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+}
+
+.transition {
+	/*-webkit-transform: scale(2); 
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);*/
+    opacity: 0.3;
+}
+
+#pageThreeInfo {
+	text-align: center;
+	padding-top: 45px;
+	color: #fc4a1a;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.subtext {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+}
+
+#buildABike2 {
+	color: #fc4a1a;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-style: italic;
+	border-bottom: 2px solid black;
+}
+
+.wrapper {
+	position: relative;
+	padding: 0;
+	width: 100%;
+	display: block;
+}
+
+.text {
+	position: absolute;
+	top: 0;
+	color: #fc4a1a ;
+	background-color: rgba(255, 255, 255, 0.8);
+	font-size: 30px;
+	padding-left: 23%;
+	padding-top: 30px;
+	font-weight: bold;
+	font-style: italic;
+	width: 100%;
+	height: 100%;
+	line-height: 100px;
+	z-index: 10;
+	opacity: 0;
+}
+
+.text:hover {
+	opacity: 1;
+}
+
+.footer {
+	background-color: #fc4a1a;
+	height: 27%;
+	border-top: 3px solid black;
+}
+
+.leftInfo {
+	font-size: 20px;
+	padding-top: 50px;
+	padding-left: 10px;
+	color: white;
+	/*text-align: center;*/
+}
+
+.icons {
+	
+	padding-top: 60px;
+	padding-left: 25px;
+}
+
+.fa-facebook {
+	padding-right: 20px;
+	color: white;
+}
+
+.fa-instagram {
+	padding-right: 20px;
+	color: white;
+}
+
+.fa-twitter {
+	color: white;
+}
+
+.form-group {
+	padding-top: 20px;
+	margin: 5px;
+}
+
+label {
+	color: white;
+}
+
+.form-control {
+	width: 68%;
+	border: 1px solid white;
+}
+
+#emailHelp {
+	color: white !important;
+	padding-bottom: 2px;
+}
+
+.btn-primary {
+	background-color: #fc4a1a;
+	border: 1px solid white;
+
+}
+
